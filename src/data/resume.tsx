@@ -113,7 +113,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "httpshttps://github.com/AryanBhardwaj789/CoffeeExpress",
+          href: "https://github.com/AryanBhardwaj789/CoffeeExpress",
           icon: <Icons.github className="size-3" />,
         },
       ],
