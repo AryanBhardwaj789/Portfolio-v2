@@ -8,9 +8,13 @@ export const DATA = {
   location: "Oakville, ON",
   locationLink: "https://www.google.com/maps/place/oakville",
   description:
-    "Crafting Solutions, One Line at a Time. Love turning ideas into reality.",
+    "Innovating Through Code: Transforming Visions into Digital Realities",
   summary:
-    "[As a recent Sheridan College grad, and current Headstarter AI SWE Fellow](#education), I specialize in crafting dynamic, user-centric applications and exploring the latest tech trends. My portfolio showcases a [blend of full-stack projects and cutting-edge UI/UX designs](#). Passionate about AI and always eager to learn, I thrive on solving complex problems and pushing the boundaries of technology. [Let’s connect, share ideas, and create something amazing together](#)! 🚀",
+    "[I am a dedicated Software Development graduate from Sheridan College](#education) and currently a [Headstarter AI SWE Fellow](#work). " +
+    "I specialize in creating intuitive applications that prioritize user experience and actively seek out emerging technologies to enhance my skills. " +
+    "I am passionate about connecting with others in the field to share insights and collaborate on innovative projects. " +
+    "Feel free to explore my portfolio and blog to learn more about my work. " +
+    "If you find my projects intriguing, [Let’s Connect!](#contact)🤝💻",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -89,7 +93,7 @@ export const DATA = {
     {
       school: "Sheridan College, Oakville",
       href: "https://www.sheridancollege.ca/",
-      degree: "Computer Programming Diploma (PCPRG)",
+      degree: "Computer Programming (PCPRG)",
       logoUrl: "/sheridan.jpeg",
       start: "January 2022",
       end: "April 2024",
@@ -98,7 +102,7 @@ export const DATA = {
   projects: [
     {
       title: "Coffee Express",
-      href: "#",
+      href: "https://www.linkedin.com/posts/aryanbhardwaj789_java-javafx-softwaredevelopment-activity-7241267711865942017-vzd6?utm_source=share&utm_medium=member_desktop",
       dates: "July 2023 - August 2023",
       active: true,
       description:
@@ -122,7 +126,7 @@ export const DATA = {
     },
     {
       title: "Budget Master",
-      href: "",
+      href: "https://www.linkedin.com/posts/aryanbhardwaj789_uxdesign-uiux-productdesign-activity-7244848125218029568-Elk0?utm_source=share&utm_medium=member_desktop",
       dates: "June 2023 - July 2023",
       active: true,
       description:
