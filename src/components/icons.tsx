@@ -223,4 +223,16 @@ export const Icons = {
       />
     </svg>
   ),
+  video: (props: IconProps) => (
+    <svg
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      {...props}
+    >
+      <title>Video</title>
+      <path d="M21 6.5V17.5C21 19.433 19.433 21 17.5 21H6.5C4.567 21 3 19.433 3 17.5V6.5C3 4.567 4.567 3 6.5 3H17.5C19.433 3 21 4.567 21 6.5ZM10 15.5L15 12L10 8.5V15.5Z" />
+    </svg>
+  ),
+  
 };

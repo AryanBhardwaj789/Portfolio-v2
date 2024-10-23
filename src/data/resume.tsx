@@ -62,7 +62,7 @@ export const DATA = {
       },
       Resume: {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1ZohaDN-OiFVaG8OVyFPHyfrJytecuU-M/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1Pc5cp_nO8ohtxlccGBcqQPSPPihhSQCM/view?usp=sharing",
         icon: Icons.resume,
         navbar: true,
       },
@@ -101,12 +101,128 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Coffee Express",
-      href: "https://www.linkedin.com/posts/aryanbhardwaj789_java-javafx-softwaredevelopment-activity-7241267711865942017-vzd6?utm_source=share&utm_medium=member_desktop",
-      dates: "July 2023 - August 2023",
+      title: "Pinterest Clone (Full-Stack)",
+      href: "https://pinterest-clone-nodejs.onrender.com/",
       active: true,
       description:
-        "Coffee Express is a JavaFX app that transforms your coffee experience with real-time price updates and easy customization. Enjoy a seamless ordering journey with an intuitive interface and efficient order management.",
+        "Envision a digital canvas where users curate their passions through personalized boards, effortlessly organizing a diverse array of pins. With secure authentication, a dynamic feed, and seamless profile management, this platform enhances content discovery while showcasing my expertise in crafting user-friendly experiences.",
+      technologies: [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Passport.js",
+        "EJS",
+        "Multer",
+        "dotenv"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/AryanBhardwaj789/Pinterest-Clone-Nodejs",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Demo",
+          href: "https://youtu.be/RZ9S9louqgA",
+          icon: <Icons.video className="size-3" />,
+        },
+      ],
+      image: "/pinterestclone.jpg",
+      video: "",
+    },    
+    {
+      title: "ProfAdvisor",
+      href: "https://profadvisor.vercel.app/",
+      active: true,
+      description:
+        "Platform designed to empower students and helps them make informed decisions when selecting professors. With detailed reviews and personalized recommendations, students can find the perfect match for their academic needs.",
+      technologies: [
+        "Python",
+        "OpenAI",
+        "Pinecone",
+        "Next.js",
+        "React",
+        "MUI",
+        "Clerk",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/AryanBhardwaj789/ProfAdvisor",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/profadvisor.jpg",
+      video: "",
+    },    
+    {
+      title: "Jamming",
+      href: "https://jammmify.vercel.app",
+      active: true,
+      description:
+        "Spotify Playlist Manager that integrates with the Spotify API, allowing users to search for songs, create playlists, and save them directly to their Spotify accounts. Enjoy real-time search results and a user-friendly interface for easy playlist management.",
+      technologies: [
+        "React.js",
+        "Spotify API",
+        "OAuth"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/AryanBhardwaj789/Jammming-React",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/jamming.jpg",
+      video: "",
+    },    
+    {
+      title: "PantryBuddy",
+      href: "https://pantryybuddy.vercel.app/",
+      active: true,
+      description:
+        "Engineered a smart kitchen management solution that streamlines pantry organization and meal planning through intelligent recipe recommendations and real-time synchronization.",
+      technologies: [
+        "Next.js",
+        "Firebase",
+        "Material-UI",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/AryanBhardwaj789/PantryBuddy",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/pantrybuddy.png",
+      video: "",
+    },
+    {
+      title: "Ravenous",
+      href: "https://github.com/AryanBhardwaj789/Ravenous-React",
+      active: true,
+      description:
+        "Dynamic business discovery platform that empowers users to discover businesses in real-time through location-based search and sorting options. By leveraging the Yelp API, the app delivers seamless, up-to-date results, providing an optimized user experience for finding restaurants, hotels, and more.",
+      technologies: [
+        "React.js",
+        "Yelp API",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/AryanBhardwaj789/Ravenous-React",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ravenous.jpg",
+      video: "",
+    },
+    {
+      title: "Coffee Express",
+      href: "https://www.linkedin.com/posts/aryanbhardwaj789_java-javafx-softwaredevelopment-activity-7241267711865942017-vzd6?utm_source=share&utm_medium=member_desktop",
+      active: true,
+      description:
+        "Modern JavaFX app that transforms your coffee experience with real-time price updates and easy customization. Enjoy a seamless ordering journey with an intuitive interface and efficient order management.",
       technologies: [
         "JavaFX",
         "FXML",
@@ -127,7 +243,6 @@ export const DATA = {
     {
       title: "Budget Master",
       href: "https://www.linkedin.com/posts/aryanbhardwaj789_uxdesign-uiux-productdesign-activity-7244848125218029568-Elk0?utm_source=share&utm_medium=member_desktop",
-      dates: "June 2023 - July 2023",
       active: true,
       description:
         "Figma UI prototype that simplifies financial management with features like custom budget categories, expense tracking, and budget visualization. Effortlessly set goals and get reminders to stay on top of your finances.",
@@ -152,8 +267,7 @@ export const DATA = {
     },
     {
       title: "Book Wise",
-      href: "",
-      dates: "November 2023 - December 2023",
+      href: "https://www.linkedin.com/posts/aryanbhardwaj789_java-springboot-fullstackdevelopment-activity-7249651634614546433-9v05?utm_source=share&utm_medium=member_desktop",
       active: true,
       description:
         "Developed an go-to online bookstore built with Java Spring Boot! Dive into a world of books with secure login, easy browsing, and a smooth shopping experience.",
