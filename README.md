@@ -13,7 +13,7 @@ Built with Next.js, Shadcn/UI, and Magic UI, deployed on Vercel.
 
 ## Website 
 
-🔗 https://aryanbhardwaj.vercel.app/
+🔗 [https://aryanbhardwaj.vercel.app/](https://aryanbhardwaj123.vercel.app/)
 
 
 - 🌟 Make sure to leave a star if you like it !
